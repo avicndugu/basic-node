@@ -1,0 +1,36 @@
+#nav {
+    padding:20px 70px;
+    /*background-color: red;*/
+    display:block;
+    overflow:auto;
+}
+
+#logo {
+    float:left;
+}
+
+#nav-links {
+    float:right;
+}
+
+#logo img {
+    height:100px;
+}
+
+#nav-links ul {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+#nav-links li{
+    display:inline;
+}
+
+#nav-links a {
+    text-decoration: none;
+    margin-right:50px;
+}
+
+#nav:after {
+    clear:both;
+}
