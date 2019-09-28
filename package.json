@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/avicndugu/basic-node/issues"
   },
-  "homepage": "https://github.com/avicndugu/basic-node#readme"
+  "homepage": "https://github.com/avicndugu/basic-node#readme",
+  "dependencies": {
+    "gh-pages": "2.1.1"
+  }
 }
