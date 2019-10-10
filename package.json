@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,8 +17,10 @@
   "bugs": {
     "url": "https://github.com/avicndugu/basic-node/issues"
   },
-  "homepage": "https://github.com/avicndugu/basic-node#readme",
-  "dependencies": {
-    "gh-pages": "2.1.1"
+  "homepage": "https://github.com/avicndugu/basic-node",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "8.16"
   }
 }
